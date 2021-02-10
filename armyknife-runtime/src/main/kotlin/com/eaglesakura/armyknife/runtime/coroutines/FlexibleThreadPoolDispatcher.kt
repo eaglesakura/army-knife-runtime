@@ -18,8 +18,9 @@ import kotlinx.coroutines.asCoroutineDispatcher
  *
  * @author @eaglesakura
  * @link https://github.com/eaglesakura/armyknife-runtime
+ * @link https://github.com/eaglesakura/flexible-thread-pool-dispatcher
  */
-@Deprecated("split to 'io.github.eaglesakura.flexible-thread-pool-dispatcher'")
+@Deprecated("https://github.com/eaglesakura/flexible-thread-pool-dispatcher")
 object FlexibleThreadPoolDispatcher {
 
     /**

@@ -5,9 +5,10 @@ package com.eaglesakura.armyknife.runtime
  *
  * @author @eaglesakura
  * @link https://github.com/eaglesakura/armyknife-runtime
+ * @link https://github.com/eaglesakura/static-random
  */
 @Suppress("MemberVisibilityCanBePrivate", "unused")
-@Deprecated("split to 'io.github.eaglesakura.static-random'")
+@Deprecated("https://github.com/eaglesakura/static-random")
 object Random {
 
     @JvmStatic
