@@ -10,21 +10,6 @@ enable.
 ```groovy
 // build.gradle
 dependencies {
-    implementation 'io.github.eaglesakura.armyknife-runtime:armyknife-runtime:${replace version}'
+    implementation 'io.github.eaglesakura.armyknife-runtime:armyknife-runtime:1.4.+'
 }
-```
-
-## Dev / LocalInstall
-
-```sh
-./gradlew -Pinstall_snapshot build uploadArchives
-```
-
-```groovy
-repositories {
-    mavenLocal()
-}
-
-// replace version("major.minor.99999")
-implementation 'io.github.eaglesakura.armyknife-runtime:armyknife-runtime:${replace version}'
 ```
